@@ -1,0 +1,23 @@
+.Container {
+	margin: 10px auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.Card {
+	margin: 0 auto;
+	max-width: 360px;
+	padding: 10px 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.Orders {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.SmallFont {
+	font-size: 17px;
+	font-weight: 600;
+}

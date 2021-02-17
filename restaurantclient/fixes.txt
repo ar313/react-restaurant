@@ -1,0 +1,62 @@
+--?Fix Dishes description to be description instead of ingredients
+--!Missing Validations for a lot of things
+--!Fix the VARS in server !!! 
+
+________To_Be_Created___________
+Add/Remove/Update dishes(k) // fix - Th
+Add Image - Upload Button Added 
+Waiter Notification(Order Completed from kitchen) - 
+Reservation Cancels (t+30) send notification
+Add Order (w)
+
+
+_________________FE____________________
+--Finance - ???
+--Waiter
+--Kitchen
+--Admin
+
+
+_________________BE_____________________
+Cache Tokens - Redis Cache
+Concurrency - 409 error
+IsDeleted
+Azure Blob Storage - Documents
+Add Image
+Reset Password 
+Refresh Token
+
+
+_______Testing_FE________
+pastOrders(c) Y
+order Y
+payment Y
+delivery Y
+reservations Y
+orders(k) - Y
+cash desk (d, w) - Y
+reservations (m) - Y
+employees(m) - Y
+Add/Cancel Order(op) - Y
+dishes - Y
+restaurant details(m) - Y
+Financial Reports(f) - Y
+
+unit testing???
+
+
+_____________TESTING_BE_________________
+Generate Reports - Y
+Send Emails - Y
+Send Images - Y
+Fix Permissions
+
+unit testing???
+
+
+_____________Done_roles__________________
+Client,
+Delivery,
+Manager
+Operator
+

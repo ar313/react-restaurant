@@ -1,0 +1,40 @@
+.Card {
+    padding: 20px 10px;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.InnerCard {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 0px 10px 15px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.Chip {
+    max-width: 80%;
+    margin-bottom: 5px;
+}
+
+.Select {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.Input {
+    width: 200px;
+}
+
+.Button {
+    margin-top: 10px !important;
+}
+
+.Form {
+    text-align: left;
+}
+
+.FormTwo {
+    width: 300px;
+    text-align: left;
+}

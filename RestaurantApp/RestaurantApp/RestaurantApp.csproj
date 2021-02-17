@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200925154537_AddressesFixFix.cs" />
+    <Compile Remove="Migrations\20200925154537_AddressesFixFix.Designer.cs" />
+    <Compile Remove="Migrations\20200925154635_AddressesFixFix.cs" />
+    <Compile Remove="Migrations\20200925154635_AddressesFixFix.Designer.cs" />
+    <Compile Remove="Migrations\20201005145344_DeliveriesFix.cs" />
+    <Compile Remove="Migrations\20201005145344_DeliveriesFix.Designer.cs" />
+    <Compile Remove="Migrations\20201009105148_ImageFix.cs" />
+    <Compile Remove="Migrations\20201009105148_ImageFix.Designer.cs" />
+    <Compile Remove="Migrations\20201009105549_ClearImage.cs" />
+    <Compile Remove="Migrations\20201009105549_ClearImage.Designer.cs" />
+    <Compile Remove="Migrations\20201009105726_ImageAdd.cs" />
+    <Compile Remove="Migrations\20201009105726_ImageAdd.Designer.cs" />
+    <Compile Remove="Migrations\20201009110606_ImagesAdd.cs" />
+    <Compile Remove="Migrations\20201009110606_ImagesAdd.Designer.cs" />
+    <Compile Remove="Migrations\20201009111703_ImagesClear.cs" />
+    <Compile Remove="Migrations\20201009111703_ImagesClear.Designer.cs" />
+    <Compile Remove="Migrations\20201009111825_ImagesClearT.cs" />
+    <Compile Remove="Migrations\20201009111825_ImagesClearT.Designer.cs" />
+    <Compile Remove="Migrations\20201009111852_ImagesClearT.cs" />
+    <Compile Remove="Migrations\20201009111852_ImagesClearT.Designer.cs" />
+    <Compile Remove="Migrations\20201009111945_ImagesClearT.cs" />
+    <Compile Remove="Migrations\20201009111945_ImagesClearT.Designer.cs" />
+    <Compile Remove="Migrations\20201009112243_ImagesClear.cs" />
+    <Compile Remove="Migrations\20201009112243_ImagesClear.Designer.cs" />
+    <Compile Remove="Migrations\20201009112430_ImagesClear.cs" />
+    <Compile Remove="Migrations\20201009112430_ImagesClear.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Services\Interfaces\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AuthorizeNet" Version="2.0.1" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.14" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.14" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.14" />
+    <PackageReference Include="IdentityServer4" Version="4.1.0" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="IdentityServer4.AspNetIdentity" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="SendGrid" Version="9.21.0" />
+    <PackageReference Include="SimpleInjector" Version="5.0.3" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore" Version="5.1.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="5.0.0" />
+    <PackageReference Include="SimpleInjector.Integration.WebApi.WebHost.QuickStart" Version="5.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+
+</Project>

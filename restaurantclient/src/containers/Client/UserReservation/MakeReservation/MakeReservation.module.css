@@ -1,0 +1,13 @@
+.Container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.Select {
+    min-width: 180px;
+}
+
+.ButtonControl {
+    margin-top: 20px !important;
+}

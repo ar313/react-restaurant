@@ -1,0 +1,9 @@
+.Image {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.Form {
+	display: block !important;
+}

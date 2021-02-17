@@ -1,0 +1,33 @@
+.Container {
+	max-width: 1050px;
+	margin: 50px auto;
+}
+
+.Details {
+	padding: 20px;
+	text-align: center;
+}
+
+.Chip {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 20px 10px !important;
+}
+
+.Chip + .Chip {
+	margin-left: 10px;
+}
+
+.Buttons {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.Button {
+	margin-top: 13px !important;
+	margin-left: 20px !important;
+}
+
+.Button + .Button {
+	margin-left: 20px;
+}

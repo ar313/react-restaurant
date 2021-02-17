@@ -1,0 +1,10 @@
+.Container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.Form {
+    margin-bottom: 10px;
+    max-width: 250px;
+}

@@ -1,0 +1,9 @@
+.Container {
+	max-width: 1050px;
+	margin: 50px auto;
+}
+
+.Image {
+	max-width: 200px;
+	max-height: 300px;
+}

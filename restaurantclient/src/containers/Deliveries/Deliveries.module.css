@@ -1,0 +1,29 @@
+.Spinner {
+	margin: 50px;
+	text-align: center;
+}
+
+.Container {
+	margin: 50px auto;
+}
+
+.Card {
+	margin: 0 auto;
+	max-width: 380px;
+	padding: 10px 15px;
+	text-align: left;
+}
+
+.Card + .Card {
+	margin-top: 20px;
+}
+
+.Deliveries {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.SmallFont {
+	font-size: 17px;
+	font-weight: 600;
+}

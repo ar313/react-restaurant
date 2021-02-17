@@ -1,0 +1,23 @@
+
+.DataTable {
+    max-width: 1050px;
+    margin: 20px auto;
+    padding: 20px;    
+}
+
+@media only screen and (max-width:768px){
+
+    .DataTable {
+        max-width: 1050px;
+        margin: 20px auto;
+        padding: 10px;    
+    }
+
+}
+
+.Spinner {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}

@@ -1,0 +1,29 @@
+.Container {
+	max-width: 1050px;
+	margin: 50px auto;
+}
+
+.Spinner {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.Add {
+	text-align: center;
+}
+
+.Card {
+	max-width: 350px;
+	text-align: center;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.Form {
+	display: block !important;
+	margin: 10px 0 !important;
+}
+
+.Select {
+	width: 240px;
+}

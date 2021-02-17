@@ -1,0 +1,58 @@
+.Recipe {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
+
+.Chip {
+    margin: 3px;
+}
+
+.FormControl {
+    margin: 10px 0 0 20px !important;
+    padding: 5px 5px 5px 10px !important;
+    min-width: 200px;
+    max-width: 300px;
+    /* border: 3px solid #83a4de !important; */
+    border-radius: 5px !important;
+}
+
+.Chips {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 5px;
+}
+
+.noLabel {
+    margin-top: 5px;
+}
+
+.InputLabel {
+    font-size: large;
+}
+
+.Select {
+    margin: 5px 5px 5px 0;
+    min-width: 170px;
+    max-width: 320px;
+}
+
+.RecipeLabel {
+    margin-bottom: 5px;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.AddMenu {
+    margin-top: 20px;
+}
+
+.Spinner {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}

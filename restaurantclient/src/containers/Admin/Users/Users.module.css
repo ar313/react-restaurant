@@ -1,0 +1,13 @@
+.Container {
+	max-width: 1050px;
+	margin: 50px auto;
+}
+
+.Spinner {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.Add {
+	text-align: center;
+}
